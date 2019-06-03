@@ -4,3 +4,15 @@
 @import "nav.scss";
 @import "resume-item.scss";
 @import "bootstrap-overrides.scss";
+
+.list-inline-item .jquery-icon {
+  padding-bottom: 8px;
+  height: 50px;
+  opacity: 0.45;
+
+  &:hover {
+    opacity: 1;
+  }
+
+}
+
