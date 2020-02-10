@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.8.2",
-      "/Users/ianmooney/Desktop/resume"
+      "/Users/harrietthompson/Code/Projects/hazthompson.github.io"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.8.2",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.8.2.tgz",
   "_spec": "5.8.2",
-  "_where": "/Users/ianmooney/Desktop/resume",
+  "_where": "/Users/harrietthompson/Code/Projects/hazthompson.github.io",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",

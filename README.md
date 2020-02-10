@@ -2,4 +2,4 @@
 
 # Start server
 
-. run npm start
+. run npm start. This should open of port 3000
