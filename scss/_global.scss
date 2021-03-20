@@ -51,21 +51,9 @@ p.lead {
 
 .social-icons {
   a {
-    // display: inline-block;
-    // height: 3.5rem;
-    // width: 3.5rem;
-    // background-color: $gray-700;
     color: $gray-700;
 
-    // text-align: center;
-    // font-size: 1.5rem;
-    // line-height: 2.5rem;
-    // margin-right: 1rem;
-    // &:last-child {
-    //   margin-right: 0;
-    // }
     &:hover {
-      // background-color: $primary;
       text-decoration: none;
     }
 
@@ -86,4 +74,35 @@ p.lead {
 
 .stack-info {
   color: white;
+}
+.project-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  &:hover .project-description {
+    display: flex;
+  }
+}
+
+.project-description {
+  display: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+}
+.overlay {
+  position: absolute;
+  background: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+.project-video {
+  width: 100%;
+  z-index: -1;
 }

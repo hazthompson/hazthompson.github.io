@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.6 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -76,6 +76,47 @@ p.lead {
 
 .stack-info {
   color: white;
+}
+
+.project-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.project-container:hover .project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-description {
+  display: none;
+  color: white;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+}
+
+.overlay {
+  position: absolute;
+  background: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.project-video {
+  width: 100%;
+  z-index: -1;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
