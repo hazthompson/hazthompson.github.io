@@ -80,8 +80,11 @@ p.lead {
 
 .project-container {
   position: relative;
-  height: 300px;
-  width: 100%;
+  height: auto;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .project-container:hover .project-description {
