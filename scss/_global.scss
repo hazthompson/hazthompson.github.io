@@ -75,20 +75,25 @@ p.lead {
 .stack-info {
   color: white;
 }
+
+.download-btn {
+  border-radius: 2px;
+}
+
 .project-container {
   position: relative;
   height: auto;
   width: auto;
   justify-content: center;
   &:hover .project-description {
-    display: flex;
+    display: grid;
   }
 }
 
 .project-description {
   display: none;
   color: white;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   position: absolute;
   height: 100%;
@@ -96,9 +101,6 @@ p.lead {
   z-index: 20;
 }
 .overlay {
-  // justify-self: center;
-  // align-self: center;
-
   position: absolute;
   background: black;
   height: 100%;
@@ -106,7 +108,25 @@ p.lead {
   opacity: 0.6;
   z-index: -1;
 }
+
 .project-video {
   width: 100%;
   z-index: -1;
+}
+
+.description-title {
+  justify-self: center;
+}
+
+.description-p {
+  font-size: 0.8rem;
+  margin: 0px 20px 0px 20px;
+}
+
+.live-site-btn {
+  justify-self: center;
+  font-size: 0.8rem;
+  color: white;
+  border-color: white;
+  padding: 0px 5px 0px 5px;
 }

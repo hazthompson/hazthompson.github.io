@@ -78,6 +78,10 @@ p.lead {
   color: white;
 }
 
+.download-btn {
+  border-radius: 2px;
+}
+
 .project-container {
   position: relative;
   height: auto;
@@ -88,17 +92,12 @@ p.lead {
 }
 
 .project-container:hover .project-description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
 }
 
 .project-description {
   display: none;
   color: white;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -120,6 +119,23 @@ p.lead {
 .project-video {
   width: 100%;
   z-index: -1;
+}
+
+.description-title {
+  justify-self: center;
+}
+
+.description-p {
+  font-size: 0.8rem;
+  margin: 0px 20px 0px 20px;
+}
+
+.live-site-btn {
+  justify-self: center;
+  font-size: 0.8rem;
+  color: white;
+  border-color: white;
+  padding: 0px 5px 0px 5px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
