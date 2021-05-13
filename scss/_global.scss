@@ -85,8 +85,11 @@ p.lead {
   height: auto;
   width: auto;
   justify-content: center;
+  text-align: center;
+  background-color: #1e2129;
   &:hover .project-description {
     display: grid;
+    text-align: left;
   }
 }
 
